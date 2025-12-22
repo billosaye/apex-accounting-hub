@@ -23,11 +23,11 @@ const Header = ({ onBookingClick }: HeaderProps) => {
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
             <div className="w-10 h-10 bg-gradient-hero rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-display font-bold text-xl">MK</span>
+              <span className="text-primary-foreground font-display font-bold text-xl">RA</span>
             </div>
             <div className="hidden sm:block">
-              <span className="font-display font-semibold text-foreground text-lg">MK & Associates</span>
-              <span className="block text-xs text-muted-foreground">Certified Public Accountants</span>
+              <span className="font-display font-semibold text-foreground text-lg">Romage Accounting</span>
+              <span className="block text-xs text-muted-foreground">Management Limited</span>
             </div>
           </a>
 

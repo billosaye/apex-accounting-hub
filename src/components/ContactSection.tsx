@@ -13,7 +13,7 @@ const ContactSection = ({ onBookingClick }: ContactSectionProps) => {
     {
       icon: MapPin,
       title: "Office Location",
-      details: ["Nairobi CBD", "Kenya"],
+      details: ["View Park Towers 15th Floor", "Uhuru Highway, Opposite Central Park"],
     },
     {
       icon: Phone,

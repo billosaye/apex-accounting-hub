@@ -27,10 +27,10 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 bg-gradient-hero rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-display font-bold text-xl">MK</span>
+                <span className="text-primary-foreground font-display font-bold text-xl">RA</span>
               </div>
               <div>
-                <span className="font-display font-semibold text-primary-foreground text-lg block">MK & Associates</span>
+                <span className="font-display font-semibold text-primary-foreground text-lg block">Romage Accounting</span>
               </div>
             </div>
             <p className="text-primary-foreground/60 text-sm leading-relaxed mb-4">
@@ -38,7 +38,7 @@ const Footer = () => {
             </p>
             <div className="flex items-center gap-2 text-primary-foreground/60 text-sm">
               <MapPin className="w-4 h-4" />
-              <span>Nairobi CBD, Kenya</span>
+              <span>View Park Towers 15th Floor, Uhuru Highway</span>
             </div>
           </div>
 
@@ -80,7 +80,7 @@ const Footer = () => {
                 className="flex items-center gap-2 text-primary-foreground/60 hover:text-sky-light transition-colors text-sm"
               >
                 <Phone className="w-4 h-4" />
-                +254 700 000 000
+                +254 704 203644
               </a>
               <a
                 href="mailto:info@mkassociates.co.ke"

@@ -20,7 +20,7 @@ const AboutSection = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-lg">
               <img
                 src={aboutImage}
-                alt="CPA Moses Kipkoech Bett analyzing financial data"
+                alt="CPA Robert Makori analyzing financial data"
                 className="w-full h-auto object-cover"
               />
               {/* Overlay Card */}
@@ -30,7 +30,7 @@ const AboutSection = () => {
                     <span className="text-primary-foreground font-display font-bold">MB</span>
                   </div>
                   <div>
-                    <h4 className="font-display font-semibold text-foreground">CPA Moses Kipkoech Bett</h4>
+                    <h4 className="font-display font-semibold text-foreground">CPA Robert Makori</h4>
                     <p className="text-muted-foreground text-sm">Director & Lead Consultant</p>
                   </div>
                 </div>
@@ -51,9 +51,8 @@ const AboutSection = () => {
               Meet Your Trusted Financial Partner
             </h2>
             <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-              MK & Associates is a premier accounting and tax consultancy firm based in Nairobi, Kenya. 
-              Led by <strong className="text-foreground">CPA Moses Kipkoech Bett</strong>, we specialize in providing 
-              comprehensive financial solutions to businesses of all sizes.
+              Romage Accounting and Management Limited is a premier accounting and tax consultancy firm based in Nairobi, Kenya. 
+              We specialize in providing comprehensive financial solutions to businesses of all sizes.
             </p>
             <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
               As a registered Tax Agent with the Kenya Revenue Authority and a member of the Institute 
