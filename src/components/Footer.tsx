@@ -76,18 +76,18 @@ const Footer = () => {
             <h4 className="font-display font-semibold text-primary-foreground mb-4">Contact Us</h4>
             <div className="space-y-3">
               <a
-                href="tel:+254700000000"
+                href="tel:+254704203644"
                 className="flex items-center gap-2 text-primary-foreground/60 hover:text-sky-light transition-colors text-sm"
               >
                 <Phone className="w-4 h-4" />
                 +254 704 203644
               </a>
               <a
-                href="mailto:info@mkassociates.co.ke"
+                href="mailto:info@romageaccounting.co.ke"
                 className="flex items-center gap-2 text-primary-foreground/60 hover:text-sky-light transition-colors text-sm"
               >
                 <Mail className="w-4 h-4" />
-                info@mkassociates.co.ke
+                info@romageaccounting.co.ke
               </a>
             </div>
 
@@ -106,7 +106,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-primary-foreground/10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-primary-foreground/40 text-sm">
-              © {currentYear} MK & Associates. All rights reserved.
+              © {currentYear} Romage Accounting and Management Limited. All rights reserved.
             </p>
             <p className="text-primary-foreground/40 text-sm">
               Certified Public Accountants | Tax Consultants

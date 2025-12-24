@@ -6,7 +6,7 @@ interface ContactSectionProps {
 }
 
 const ContactSection = ({ onBookingClick }: ContactSectionProps) => {
-  const whatsappNumber = "254700000000"; // Replace with actual number
+  const whatsappNumber = "254704203644"; // Replace with actual number
   const whatsappMessage = encodeURIComponent("Hello, I would like to inquire about your accounting services.");
 
   const contactInfo = [
@@ -18,12 +18,12 @@ const ContactSection = ({ onBookingClick }: ContactSectionProps) => {
     {
       icon: Phone,
       title: "Phone Number",
-      details: ["+254 700 000 000"],
+      details: ["+254 704 203644"],
     },
     {
       icon: Mail,
       title: "Email Address",
-      details: ["info@mkassociates.co.ke"],
+      details: ["info@romageaccounting.co.ke"],
     },
     {
       icon: Clock,

@@ -18,10 +18,10 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>MK & Associates | Certified Public Accountants in Nairobi, Kenya</title>
+        <title>Romage Accounting and Management Limited</title>
         <meta 
           name="description" 
-          content="MK & Associates - Expert accounting, tax planning, and financial advisory services in Nairobi. ICPAK registered CPA and KRA Tax Agent. Book a free consultation today." 
+          content="Romage Accounting and Management Limited - Expert accounting, tax planning, and financial advisory services in Nairobi. ICPAK registered CPA and KRA Tax Agent. Book a free consultation today." 
         />
         <meta name="keywords" content="CPA Kenya, Tax Agent Nairobi, Accounting Services, ICPAK, KRA, Business Registration Kenya, Payroll Services, Financial Advisory" />
         <link rel="canonical" href="https://mkassociates.co.ke" />
