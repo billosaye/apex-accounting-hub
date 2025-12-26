@@ -1,13 +1,14 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Phone } from "lucide-react";
+import { Menu, X, Phone, MessageCircle } from "lucide-react";
 
 interface HeaderProps {
-  onBookingClick: () => void;
 }
 
-const Header = ({ onBookingClick }: HeaderProps) => {
+const Header = ({ }: HeaderProps) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const whatsappNumber = "254704203644";
+  const whatsappMessage = encodeURIComponent("Hello, I would like to book a consultation for your accounting services.");
 
   const navItems = [
     { label: "Home", href: "#home" },
@@ -50,8 +51,15 @@ const Header = ({ onBookingClick }: HeaderProps) => {
               <Phone className="w-4 h-4" />
               <span className="text-sm font-medium">Call Us</span>
             </a>
-            <Button variant="default" size="lg" onClick={onBookingClick}>
-              Book Consultation
+            <Button variant="whatsapp" size="lg" asChild>
+              <a 
+                href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <MessageCircle className="w-4 h-4" />
+                Chat on WhatsApp
+              </a>
             </Button>
           </div>
 
@@ -79,8 +87,15 @@ const Header = ({ onBookingClick }: HeaderProps) => {
                   {item.label}
                 </a>
               ))}
-              <Button variant="default" className="mt-2" onClick={() => { onBookingClick(); setIsMenuOpen(false); }}>
-                Book Consultation
+              <Button variant="whatsapp" className="mt-2" asChild>
+                <a 
+                  href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <MessageCircle className="w-4 h-4" />
+                  Chat on WhatsApp
+                </a>
               </Button>
             </nav>
           </div>

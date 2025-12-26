@@ -1,12 +1,14 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Shield, Award, Users } from "lucide-react";
+import { ArrowRight, Shield, Award, Users, MessageCircle } from "lucide-react";
 import heroImage from "@/assets/hero-accounting.jpg";
 
 interface HeroSectionProps {
-  onBookingClick: () => void;
 }
 
-const HeroSection = ({ onBookingClick }: HeroSectionProps) => {
+const HeroSection = ({ }: HeroSectionProps) => {
+  const whatsappNumber = "254704203644";
+  const whatsappMessage = encodeURIComponent("Hello, I would like to book a consultation for your accounting services.");
+
   return (
     <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
       {/* Background Image with Overlay */}
@@ -45,9 +47,15 @@ const HeroSection = ({ onBookingClick }: HeroSectionProps) => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-up delay-300">
-            <Button variant="accent" size="xl" onClick={onBookingClick}>
-              Schedule Free Consultation
-              <ArrowRight className="w-5 h-5" />
+            <Button variant="accent" size="xl" asChild>
+              <a 
+                href={`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <MessageCircle className="w-5 h-5" />
+                Start Consultation on WhatsApp
+              </a>
             </Button>
             <Button variant="heroOutline" size="xl" asChild>
               <a href="#services">Our Services</a>

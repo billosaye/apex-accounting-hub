@@ -2,10 +2,9 @@ import { Button } from "@/components/ui/button";
 import { MapPin, Phone, Mail, Clock, MessageCircle } from "lucide-react";
 
 interface ContactSectionProps {
-  onBookingClick: () => void;
 }
 
-const ContactSection = ({ onBookingClick }: ContactSectionProps) => {
+const ContactSection = ({ }: ContactSectionProps) => {
   const whatsappNumber = "254704203644"; // Replace with actual number
   const whatsappMessage = encodeURIComponent("Hello, I would like to inquire about your accounting services.");
 
@@ -75,19 +74,10 @@ const ContactSection = ({ onBookingClick }: ContactSectionProps) => {
                 Ready to Get Started?
               </h3>
               <p className="text-muted-foreground mb-8">
-                Book a free consultation or reach out to us directly via WhatsApp for quick inquiries.
+                Contact us directly via WhatsApp to book a free consultation or ask quick questions.
               </p>
 
               <div className="space-y-4">
-                <Button 
-                  variant="default" 
-                  size="xl" 
-                  className="w-full"
-                  onClick={onBookingClick}
-                >
-                  Book Free Consultation
-                </Button>
-                
                 <Button 
                   variant="whatsapp" 
                   size="xl" 
@@ -100,7 +90,7 @@ const ContactSection = ({ onBookingClick }: ContactSectionProps) => {
                     rel="noopener noreferrer"
                   >
                     <MessageCircle className="w-5 h-5" />
-                    Chat on WhatsApp
+                    Book Consultation via WhatsApp
                   </a>
                 </Button>
               </div>

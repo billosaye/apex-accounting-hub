@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
@@ -6,14 +5,8 @@ import ServicesSection from "@/components/ServicesSection";
 import AboutSection from "@/components/AboutSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
-import BookingPopup from "@/components/BookingPopup";
 
 const Index = () => {
-  const [isBookingOpen, setIsBookingOpen] = useState(false);
-
-  const handleBookingClick = () => {
-    setIsBookingOpen(true);
-  };
 
   return (
     <>
@@ -51,15 +44,14 @@ const Index = () => {
       </Helmet>
 
       <div className="min-h-screen bg-background">
-        <Header onBookingClick={handleBookingClick} />
+        <Header />
         <main>
-          <HeroSection onBookingClick={handleBookingClick} />
+          <HeroSection />
           <ServicesSection />
           <AboutSection />
-          <ContactSection onBookingClick={handleBookingClick} />
+          <ContactSection />
         </main>
         <Footer />
-        <BookingPopup isOpen={isBookingOpen} onClose={() => setIsBookingOpen(false)} />
       </div>
     </>
   );
