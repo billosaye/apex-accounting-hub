@@ -22,7 +22,7 @@ const Header = ({ }: HeaderProps) => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <a href="#home" className="flex items-center gap-2">
+          <a href="#home" className="flex items-center gap-2" title="Romage Accounting - Nairobi Accounting & Tax Services">
             <div className="w-10 h-10 bg-gradient-hero rounded-lg flex items-center justify-center">
               <span className="text-primary-foreground font-display font-bold text-xl">RA</span>
             </div>

@@ -41,11 +41,11 @@ const ContactSection = ({ }: ContactSectionProps) => {
               Get In Touch
             </span>
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">
-              Let's Discuss Your Financial Needs
+              Let's Discuss Your Accounting &amp; Financial Needs
             </h2>
             <p className="text-primary-foreground/80 text-lg mb-8 leading-relaxed">
-              Ready to take control of your finances? Contact us today for a free consultation. 
-              Our team is here to help you achieve your business goals.
+              Ready to take control of your finances? Contact us today for a free consultation via WhatsApp. 
+              Our team of certified accountants and tax specialists is here to help you achieve your business goals.
             </p>
 
             {/* Contact Cards */}

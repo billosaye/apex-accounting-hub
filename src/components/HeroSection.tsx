@@ -34,15 +34,12 @@ const HeroSection = ({ }: HeroSectionProps) => {
 
           {/* Headline */}
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-6 animate-fade-up delay-100">
-            Your Trusted Partner in{" "}
-            <span className="text-sky-light">Accounting</span> &{" "}
-            <span className="text-sky-light">Taxation</span>
+            Your Trusted Partner in <strong className="text-sky-light">Accounting</strong> &amp; <strong className="text-sky-light">Taxation</strong>
           </h1>
 
           {/* Subheadline */}
           <p className="text-primary-foreground/80 text-lg md:text-xl mb-8 leading-relaxed animate-fade-up delay-200">
-            Expert financial solutions tailored for businesses in Kenya. 
-            We help you navigate complex tax regulations and grow your business with confidence.
+            Premier accounting and tax consultancy in Nairobi. Expert financial solutions for businesses. ICPAK certified CPA and KRA registered tax agent with 10+ years experience.
           </p>
 
           {/* CTA Buttons */}
