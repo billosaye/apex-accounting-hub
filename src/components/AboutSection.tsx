@@ -107,6 +107,29 @@ const AboutSection = () => {
                     <span className="font-semibold text-foreground text-sm">CPA Kenya</span>
                   </div>
                 </div>
+                {/* Work Experience */}
+                <div className="mt-8">
+                  <h3 className="font-display font-semibold text-2xl text-foreground mb-3">Work Experience</h3>
+                  <p className="text-muted-foreground mb-3">
+                    With over 8 years of professional experience, Romage Accounting &amp; Tax Services has provided comprehensive accounting support to businesses across multiple industries in Kenya.
+                  </p>
+                  <p className="text-muted-foreground mb-3">Our assignments have included accounting and bookkeeping, tax filing, payroll preparation, and statutory remittances for companies in the following sectors:</p>
+                  <ul className="list-disc list-inside text-muted-foreground mb-3 space-y-1">
+                    <li>Hardware manufacturing and steel industries</li>
+                    <li>Hotels and restaurants</li>
+                    <li>Logistics and transport</li>
+                    <li>Import and export businesses</li>
+                    <li>Wholesale and retail trade</li>
+                    <li>Travel and tours</li>
+                    <li>Real estate</li>
+                  </ul>
+                  <p className="text-muted-foreground mb-2">
+                    We have worked with established companies such as HEMA Limited, Dong Peng Tiles East Africa, Arihant Industries Ltd, Mega Choice Supermarket Ltd, Global Steel Ltd, PMS Holdings (Real Estate), and Harium Travel and Tours Ltd, among others.
+                  </p>
+                  <p className="text-muted-foreground">
+                    This diverse exposure has strengthened our expertise in financial reporting, tax compliance, payroll administration, and regulatory compliance with KRA, NSSF, NHIF, and other statutory bodies.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
