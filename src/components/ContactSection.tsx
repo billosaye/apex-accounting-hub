@@ -5,7 +5,7 @@ interface ContactSectionProps {
 }
 
 const ContactSection = ({ }: ContactSectionProps) => {
-  const whatsappNumber = "254704203644"; // Replace with actual number
+  const whatsappNumber = "254140926450"; // Replace with actual number
   const whatsappMessage = encodeURIComponent("Hello, I would like to inquire about your accounting services.");
 
   const contactInfo = [
@@ -17,7 +17,7 @@ const ContactSection = ({ }: ContactSectionProps) => {
     {
       icon: Phone,
       title: "Phone Number",
-      details: ["+254 704 203644"],
+      details: ["+254 140 926450"],
     },
     {
       icon: Mail,
