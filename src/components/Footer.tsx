@@ -78,11 +78,11 @@ const Footer = () => {
             <h3 className="font-display font-semibold text-primary-foreground mb-4">Contact Us</h3>
             <div className="space-y-3">
               <a
-                href="tel:+254704203644"
+                href="tel:+254140926450"
                 className="flex items-center gap-2 text-primary-foreground/60 hover:text-sky-light transition-colors text-sm"
               >
                 <Phone className="w-4 h-4" aria-hidden="true" />
-                +254 704 203644
+                +254 140 926450
               </a>
               <a
                 href="mailto:info@romageaccounting.co.ke"

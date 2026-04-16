@@ -10,9 +10,9 @@ const BookingPopup = ({ isOpen, onClose }: BookingPopupProps) => {
   useEffect(() => {
     if (isOpen) {
       // Redirect to WhatsApp immediately
-      const whatsappNumber = "254704203644";
+      const whatsappNumber = "254140926450";
       const whatsappMessage = encodeURIComponent("Hello, I would like to book a consultation for your accounting services.");
-      window.open(
+      window.open,
         `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`,
         "_blank"
       );

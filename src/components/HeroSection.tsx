@@ -6,7 +6,7 @@ interface HeroSectionProps {
 }
 
 const HeroSection = ({ }: HeroSectionProps) => {
-  const whatsappNumber = "254704203644";
+  const whatsappNumber = "254140926450";
   const whatsappMessage = encodeURIComponent("Hello, I would like to book a consultation for your accounting services.");
 
   return (

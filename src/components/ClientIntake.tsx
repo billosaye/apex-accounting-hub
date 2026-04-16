@@ -31,7 +31,7 @@ const SERVICES = [
   "Other (describe below)",
 ];
 
-const whatsappNumber = "254704203644";
+const whatsappNumber = "254140926450";
 
 export default function ClientIntake() {
   const [open, setOpen] = useState(false);

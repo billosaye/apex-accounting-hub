@@ -52,12 +52,12 @@ const Index = () => {
             "sameAs": [
               "https://www.facebook.com/romagaccounting",
               "https://www.linkedin.com/company/romage-accounting",
-              "https://wa.me/254704203644"
+              "https://wa.me/254140926450"
             ],
             "contact": {
               "@type": "ContactPoint",
               "contactType": "Business Services",
-              "telephone": "+254-704-203644",
+              "telephone": "+254-140-926450",
               "email": "info@romageaccounting.co.ke",
               "areaServed": "KE",
               "availableLanguage": "en"
