@@ -17,7 +17,7 @@ const ContactSection = ({ }: ContactSectionProps) => {
     {
       icon: Phone,
       title: "Phone Number",
-      details: ["+254 140 926450"],
+      details: ["+254 704 203644"],
     },
     {
       icon: Mail,
